@@ -19,6 +19,9 @@ def modulocplx(c):
     modu = math.sqrt(c[0]**2+c[1]**2)
     return modu
 
+def conjugadocplx(c):
+    return (c[0], -c[1])  
+
 if __name__ == '__main__':
     prettyPcplx((7,-4))
 
